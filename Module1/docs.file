@@ -1,0 +1,6 @@
+This module is to:
+- Invoke a chat
+- Create and Invoke an Agent
+- Playing with System Prompts
+- Understanding LLM Message Libraries
+- Streaming message contents
