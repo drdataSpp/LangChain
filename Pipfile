@@ -7,6 +7,7 @@ name = "pypi"
 langchain-ollama = "*"
 langchain = "*"
 tavily = "*"
+langgraph = "*"
 
 [dev-packages]
 
