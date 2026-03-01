@@ -75,12 +75,3 @@ python Module2/Using_tools/01_langchain_agent_with_web_search_tool.py
 ```bash
 python Module2/Tavily/test_tavily.py
 ```
-
-## Notes & next steps
-
-- The `web_search` tool uses Tavily and selects the top-scoring result; adjust formatting or include multiple results if desired.
-- Feel free to add `README` sections for any new scripts or clarify usage examples.
-
----
-
-If you want a prettier README (badges, screenshots, or usage GIFs), tell me which examples you care most about and I will enhance it further.
