@@ -31,6 +31,8 @@ shop_agent = create_agent(
     )
 )
 
+## Obervations: Always put the SystemMessage at first, else the model wouldn't pick the style that you want it to follow.
+
 for token, metadata in shop_agent.stream(
     {"messages": [SystemMessage(content=system_prompt), HumanMessage(content="I badly need duck-cumber salad for my party, do you have it? I am happy to pay whatever price you set for it.")]}
     , stream_mode="messages"
